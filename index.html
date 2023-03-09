@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-content">
+        <fieldset>
+            <legend>User Data Capture</legend>
+            <form action="form_submit.html" method="GET">
+                <!--Name starts here-->
+                <div class="group">
+                    <label class="input-label">Name <span class="required">*</span></label> 
+                    <input type="text" class="input-type1" name="name" placeholder="Maxwel John" required>
+                </div>
+                <!--Name ends here-->
+
+                <!--Email starts here-->
+                <div class="group">
+                    <label class="input-label">email <span class="required">*</span></label> 
+                    <input type="email" name="email" class="input-type1"  class="input-type1"  placeholder="Maxwel@example.com" required>
+                </div>
+                <!--Email ends here-->
+
+                <!--Phone number starts here-->
+                <div class="group">
+                    <label class="input-label">Phone number <span class="required">*</span></label> 
+                    <input type="number" name="number" class="input-type1"  placeholder="+2347080903939" required>
+                </div>
+                <!--phone number ends here-->
+
+                <!--Gender Starts here-->
+                <div class="group">
+                    <label class="input-label">Select Gender <span class="required">*</span></label> 
+                    <!--Male-->
+                    <div class="sub-group">
+                        <input type="radio" value="Male" id="male" required>
+                        <label class="radio-label" for="male">Male</label>
+                    </div>
+                    <!--Female-->
+                    <div class="sub-group">
+                        <input type="radio" value="Female" id="female" required>
+                        <label class="radio-label" for="female">Female</label>
+                    </div>           
+                </div>
+                <!--Gender ends here ends here-->
+
+                <!--Password starts here-->
+                <div class="group">
+                    <label class="input-label">Password<span class="required">*</span></label> 
+                    <input type="password" class="input-type1"  name="password" placeholder="********" required>
+                </div>
+                <!--Password ends here-->
+                <div class="group">
+                    <input type="submit" class="input-type1"   id="submit" value="Create New Account">
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>

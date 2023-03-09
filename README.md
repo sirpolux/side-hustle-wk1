@@ -1,1 +1,3 @@
-# side-hustle-wk1
+#WEEK OE TASK
+
+Files associated with week one task for Side Hustle Frontend development
